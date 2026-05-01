@@ -1,0 +1,28 @@
+<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coreGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="50%" stop-color="#7B2CFF"/>
+      <stop offset="100%" stop-color="#FF00C8"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="220" height="220" rx="24" fill="#050712"/>
+
+  <polygon points="110,20 185,60 185,140 110,180 35,140 35,60"
+           fill="none" stroke="url(#coreGradient)" stroke-width="4" filter="url(#glow)"/>
+
+  <circle cx="110" cy="100" r="18" fill="url(#coreGradient)" filter="url(#glow)"/>
+
+  <text x="110" y="205" text-anchor="middle" fill="#E5E7FF"
+        font-family="Segoe UI, sans-serif" font-size="18" letter-spacing="2">
+    CORESUITE
+  </text>
+</svg>

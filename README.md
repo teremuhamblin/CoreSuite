@@ -1,4 +1,5 @@
 # ⚡ CoreSuite v1.0
+[![CodeQL](https://github.com/teremuhamblin/coresuite/actions/workflows/codeql.yml/badge.svg)](https://github.com/teremuhamblin/coresuite/actions/workflows/codeql.yml)
 >CoreSuite est une suite minimaliste d’outils intelligents pour analyser et résumer du texte.  
 - Version simple, modulaire, prête à étendre.
 

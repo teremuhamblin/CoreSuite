@@ -4,7 +4,7 @@
 
 ## 📁 Structure du projet
 ```text
-coresuite/
+CoreSuite/
 │
 ├── src/
 │   ├── core.js
@@ -21,7 +21,7 @@ coresuite/
 │
 ├── .github/
 │   └── workflows/
-│       └── ci.yml
+│       └── codeql.yml
 │
 ├── package.json
 └── README.md

@@ -1,7 +1,20 @@
-# ⚡ CoreSuite v1.0
+###### README.md * markdown
+<div align="left">
+
+# ⚡**CoreSuite**
+### *Modular Intelligence Suite for Developers*
+</div>
+
 [![CodeQL](https://github.com/teremuhamblin/coresuite/actions/workflows/codeql.yml/badge.svg)](https://github.com/teremuhamblin/coresuite/actions/workflows/codeql.yml)
->CoreSuite est une suite minimaliste d’outils intelligents pour analyser et résumer du texte.  
-- Version simple, modulaire, prête à étendre.
+![Version](https://img.shields.io/badge/version-1.0.0-blueviolet)
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+---
+
+###### 🔧 Minimal • ⚡ Rapide • 🧩 Modulaire • 🛡️ Sécurisé
+> CoreSuite est une suite minimaliste d’outils intelligents pour analyser et résumer du texte.  
+###### - Version simple, modulaire, prête à étendre.
 
 ## 📁 Structure du projet
 ```text
@@ -34,21 +47,11 @@ CoreSuite/
 - Analyse basique (longueur, lignes, mots)
 - Résumé automatique
 - CLI simple
-- Mini API Express
-
-## 📦 Installation
-npm install
 
 ## 🛠️ CLI
-coresuite analyze fichier.txt  
-coresuite summary fichier.txt
-
-## 🌐 API
-POST /analyze  
-POST /summary
+- analyze fichier.txt
+- summary fichier.txt
 
 ## 📚 Documentation
-Voir docs/overview.md
-
-## 🗺️ Roadmap
-Voir docs/roadmap.md
+- Voir docs/ OVERVIEW.md
+- Voir docs/ ROADMAP.md

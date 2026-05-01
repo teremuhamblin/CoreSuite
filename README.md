@@ -59,4 +59,7 @@ CoreSuite/
 ## 📚 Documentation
 - Voir docs/ OVERVIEW.md
 - Voir docs/ ROADMAP.md
-- 
+
+<p align="center">
+  <img src="ASSETS/header.svg" alt="CoreSuite Header" />
+</p>

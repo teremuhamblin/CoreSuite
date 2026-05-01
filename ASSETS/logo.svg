@@ -1,0 +1,54 @@
+<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coreGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="50%" stop-color="#7B2CFF"/>
+      <stop offset="100%" stop-color="#FF00C8"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Fond -->
+  <rect x="0" y="0" width="220" height="220" rx="24" fill="#050712"/>
+
+  <!-- Hexagone externe -->
+  <polygon
+    points="110,20 185,60 185,140 110,180 35,140 35,60"
+    fill="none"
+    stroke="url(#coreGradient)"
+    stroke-width="4"
+    filter="url(#glow)"
+  />
+
+  <!-- Hexagone interne -->
+  <polygon
+    points="110,50 160,75 160,125 110,150 60,125 60,75"
+    fill="#050712"
+    stroke="#1A1F3B"
+    stroke-width="2"
+  />
+
+  <!-- Noyau -->
+  <circle cx="110" cy="100" r="18" fill="url(#coreGradient)" filter="url(#glow)"/>
+
+  <!-- Anneau -->
+  <circle cx="110" cy="100" r="32" fill="none" stroke="#20284F" stroke-width="2" stroke-dasharray="4 6"/>
+
+  <!-- Lignes “circuit” -->
+  <line x1="110" y1="20" x2="110" y2="50" stroke="#2D3B7A" stroke-width="2"/>
+  <line x1="185" y1="100" x2="160" y2="100" stroke="#2D3B7A" stroke-width="2"/>
+  <line x1="35" y1="100" x2="60" y2="100" stroke="#2D3B7A" stroke-width="2"/>
+
+  <!-- Texte CoreSuite -->
+  <text x="110" y="205" text-anchor="middle" fill="#E5E7FF"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="18" letter-spacing="2">
+    CORESUITE
+  </text>
+</svg>

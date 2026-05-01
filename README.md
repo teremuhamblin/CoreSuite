@@ -41,6 +41,10 @@ CoreSuite/
 └── README.md
 ```
 
+<p align="center">
+  <img src="ASSETS/logo.svg" alt="CoreSuite Logo" width="160" />
+</p>
+
 ---
 
 ## 🚀 Fonctionnalités
@@ -55,3 +59,4 @@ CoreSuite/
 ## 📚 Documentation
 - Voir docs/ OVERVIEW.md
 - Voir docs/ ROADMAP.md
+- 
